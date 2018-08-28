@@ -5,7 +5,7 @@ import { shallow, mount, render } from 'enzyme';
 import App from './../src/js/app';
 
 describe('App Component', function () {
-  this.timeout(6500);
+  this.timeout(65000);
   it('should shallow render', () => {
     expect(2).to.equal(2);
     // expect(shallow(<App />).contains(<div className='container'></div>)).to.equal(true);
